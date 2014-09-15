@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true" android:state_focused="true"
+        android:drawable="@drawable/ic_mute">
+        <shape android:shape="rectangle">
+            <stroke android:width="2dp" android:color="@null" />
+        </shape>
+    </item>
+    <item android:state_activated="true" android:drawable="@drawable/ic_mute"/>
+    <item android:state_checked="false" android:state_focused="true"
+        android:drawable="@drawable/ic_unmute" />
+    <item android:state_checked="false"
+        android:drawable="@drawable/ic_mute" />
+    <item android:state_checked="true"
+        android:drawable="@drawable/ic_unmute" />
+</selector>
